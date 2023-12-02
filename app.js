@@ -35,11 +35,11 @@ const searchInput = document.getElementById('searchInput');
       roleCell.textContent = member.role;
 
       const editButton = document.createElement("button");
-      editButton.innerHTML = `<img src="images\edit.png" height="20px" width="20px"/>`
+      editButton.innerHTML = `<img src="/images/edit.png" height="20px" width="20px"/>`
       editButton.className = "edit-icon";
       editButton.onclick = () => editMember(member.id);
       const deleteButton = document.createElement("button");
-      deleteButton.innerHTML = `<img src="images\delete.png" height="20px" width="20px"/>`
+      deleteButton.innerHTML = `<img src="/images/delete.png" height="20px" width="20px"/>`
       deleteButton.className = "delete-icon";
       deleteButton.onclick = () => deleteMember(member.id);
 
